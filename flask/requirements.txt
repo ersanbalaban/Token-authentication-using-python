@@ -1,0 +1,12 @@
+Click==7.0
+Flask==1.1.2
+flask-restful==0.3.8
+flask-sqlalchemy==2.4.4
+flask-jwt-extended==3.25.0
+scikit-learn==0.24.0
+passlib==1.7.4
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+uWSGI==2.0.18
+Werkzeug==1.0.1

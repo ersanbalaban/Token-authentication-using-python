@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+
+  flask:
+    build: ./flask
+    container_name: ersandenemeflask
+    restart: always
+ 
+    expose:
+      - 8080
+
+  nginx:
+    build: ./nginx
+    container_name: ersandenemenginx
+    restart: always
+    ports:
+      - "80:80"
